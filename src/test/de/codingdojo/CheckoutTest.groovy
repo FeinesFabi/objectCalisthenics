@@ -1,4 +1,4 @@
-package de.lineas.codingdojo
+package de.codingdojo
 
 import org.junit.Assert
 import org.junit.Test

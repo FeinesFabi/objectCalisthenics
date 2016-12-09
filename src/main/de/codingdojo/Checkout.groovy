@@ -1,4 +1,4 @@
-package de.lineas.codingdojo
+package de.codingdojo
 
 class Checkout {
 
