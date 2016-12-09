@@ -2,14 +2,15 @@ package de.codingdojo
 
 class Checkout {
 
-    private Money totalMoney = new Money(0)
-    private PricingRules pricingRules = new PricingRules()
+    private Store store = new Store()
 
     Money total() {
+        Money totalMoney = new Money(0)
+        store.cartIsCheckedOut(totalMoney)
         return totalMoney
     }
 
     void scanItem(ItemCode itemCode) {
-        pricingRules.itemCodeScanned(itemCode, totalMoney)
+        store.itemCodeScanned(itemCode)
     }
 }

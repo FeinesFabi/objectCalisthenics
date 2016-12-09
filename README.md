@@ -7,8 +7,8 @@ Given four items with prices and discounts:
 |---------------|----------|-----|---------|
 |A              |DVD       |12€  |3 for 28€|
 |B              |CD Album  |8€   |-        |
-|C              |BluRay    |28€  |2 for 24€|
-|D              |HDMI Cable|40€  |-        |
+|C              |BluRay    |24€  |2 for 38€|
+|D              |HDMI Cable|26€  |-        |
 
 The code should calculate the total sum:
 

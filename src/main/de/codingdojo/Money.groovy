@@ -19,4 +19,14 @@ class Money {
     void add(Money itemPrice) {
         amount += itemPrice.amount
     }
+
+    void substract(Money saving) {
+        amount -= saving.amount
+    }
+
+    @Override
+    String toString() {
+        return String.format("Money [amount: %d]", amount)
+    }
+
 }

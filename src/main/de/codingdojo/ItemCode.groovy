@@ -21,4 +21,9 @@ class ItemCode {
     int hashCode() {
         return code.hashCode()
     }
+
+    @Override
+    String toString() {
+        return String.format("ItemCode [code: %s]", code)
+    }
 }
