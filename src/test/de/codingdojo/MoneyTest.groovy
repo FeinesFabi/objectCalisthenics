@@ -1,5 +1,6 @@
 package de.codingdojo
 
+import de.codingdojo.model.Money
 import org.junit.Test
 
 import static org.junit.Assert.assertEquals

@@ -1,5 +1,9 @@
 package de.codingdojo
 
+import de.codingdojo.model.ItemCode
+import de.codingdojo.model.Money
+import de.codingdojo.pricing.PricingRule
+
 import java.util.concurrent.atomic.AtomicInteger
 
 class ItemCounter {
@@ -17,8 +21,7 @@ class ItemCounter {
         itemsCounted.each { ItemCode itemCode, AtomicInteger amount ->
             PricingRule pricingRule = products.get(itemCode)
 
-            pricingRule.addPrice(amount.get(), total)
-            pricingRule.substractDiscount(amount.get(), total)
+            pricingRule.addPriceToTotal(amount.get(), total)
 
         }
     }

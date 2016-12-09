@@ -1,5 +1,10 @@
 package de.codingdojo
 
+import de.codingdojo.model.ItemCode
+import de.codingdojo.model.Money
+import de.codingdojo.pricing.PricingRule
+import de.codingdojo.pricing.PricingRuleFactory
+
 class Store {
 
     private Map<ItemCode, PricingRule> products = new HashMap<>()

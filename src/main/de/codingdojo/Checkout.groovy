@@ -1,5 +1,8 @@
 package de.codingdojo
 
+import de.codingdojo.model.ItemCode
+import de.codingdojo.model.Money
+
 class Checkout {
 
     private Store store = new Store()

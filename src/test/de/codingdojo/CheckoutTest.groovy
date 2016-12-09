@@ -1,5 +1,7 @@
 package de.codingdojo
 
+import de.codingdojo.model.ItemCode
+import de.codingdojo.model.Money
 import org.junit.Assert
 import org.junit.Test
 

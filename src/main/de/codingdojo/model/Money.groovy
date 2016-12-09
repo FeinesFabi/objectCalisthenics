@@ -1,4 +1,4 @@
-package de.codingdojo
+package de.codingdojo.model
 
 class Money {
 
